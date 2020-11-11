@@ -58,7 +58,7 @@ disable_iptables(){
 }
 
 get_ip(){
-    ip=`curl http://whatismyip.akamai.com`
+    ip=`curl -s http://whatismyip.akamai.com`
 }
 
 config_socat(){
